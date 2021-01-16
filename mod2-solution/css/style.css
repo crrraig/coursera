@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+body{
+	font-family:;
+	font-size: 10px;
+background-color:#9ca39e;
+
+}
+
+h1{
+  text-align: center;
+}
+
+p {
+  background-color:#f9ced2;
+  border:2px solid black;
+  height:150px;
+  margin-right:10px;
+  padding:40px 10px 5px 10px;
+  overflow: hidden;
+}
+
+#container {
+  position: relative;
+  
+}
+
+#p1 {
+  background-color:#7dac8c;
+  position: absolute;
+ top:0px;
+ right:0px;
+  font-weight: bold;
+  height:35px;
+  width:120px;
+  padding:10px;
+  text-align:center;
+  
+}
+#p2 {
+  background-color:#863939 ;
+  color: white;
+  position: absolute;
+  top:0;
+  right:0;
+  font-weight: bold;
+  height:35px;
+  width:120px;
+  padding:10px;
+  text-align:center;
+
+}
+#p3 {
+ background-color: #E5D198;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: bold;
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.row {
+  width: 100%;
+
+}
+
+
+@media (min-width: 992px)
+{
+	.col-lg-4{
+		float:left;
+		position:relative;
+	}
+	.col-lg-4{
+		width:33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width:991px)
+{
+	.col-md-6, .col-md-12{
+		float:left;
+		position:relative;}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+@media (max-width:767px)
+{
+	.col-sm-12{
+		float:left;
+		position:relative;}
+	.col-sm-12{
+		width:100%;
+	}
