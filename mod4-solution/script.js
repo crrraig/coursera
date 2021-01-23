@@ -1,5 +1,5 @@
 (function (window) {
-var names = ["Jason","Anjo","Athul","Jackson","Adarsh","Michael","Mohammed","Ibrahim","Jacob"];
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 for (var i = 0; i <names.length; i++) {
   var firstletter = names[i].charAt(0);
   if (firstletter==='J' || firstletter==='j') {
